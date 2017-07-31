@@ -5,7 +5,8 @@
   "main": "dropdown.js",
   "scripts": {
     "build": "webpack",
-    "test": "phantomjs --web-security=no ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/testrunner.html"
+    "test": "phantomjs --web-security=no ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/testrunner.html",
+    "serve": "http-server -p 8000 --cors"
   },
   "author": "samuel.paul.laycock@gmail.com",
   "license": "ISC",
